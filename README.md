@@ -121,6 +121,9 @@ URL Used: ```'http://kslegislature.org/li/b2023_24/members/'```
 -------------------------------
 * Make legislative session dynamic
 * Change output from CSV to dataframe or database
+* Add legislative calendar to measure what percent done the current session is
+* Include bill sponsorship details
+* Include minutes & testimony links
 * Create parameters to make classes more flexible in regard to which outputs to generate
 * Parse legislator experience to develop metrics related to years of experience, number of terms, etc.
 * Parse legislative process PDF to display key terms and rules easily
@@ -132,3 +135,12 @@ URL Used: ```'http://kslegislature.org/li/b2023_24/members/'```
 * Copy Web Scrapers into your project repo
 * From terminal, ```cd``` into your project repo
 * ```python scrape_legislature_bills.py```
+
+## KS Legislature Specific Resources for Context
+-------------------------------
+* KS Legislative Procedure: http://www.kslegislature.org/li/s/pdf/kansas_legislative_procedure.pdf
+* House Rules: http://www.kslegislature.org/li/s/pdf/house_rules.pdf
+* Senate Rules: http://www.kslegislature.org/li/s/pdf/senate_rules.pdf
+* Joint Chamber Rules: http://www.kslegislature.org/li/s/pdf/joint_rules.pdf
+* Session Start = January 9, 2023
+* Session End = May 22, 2023
